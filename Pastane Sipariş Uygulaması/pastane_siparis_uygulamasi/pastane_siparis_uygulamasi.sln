@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pastane_siparis_uygulamasi", "pastane_siparis_uygulamasi\pastane_siparis_uygulamasi.csproj", "{16A6FDB8-B814-47F2-90E6-017F39C1BAD6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PastaneSiparişSistemi", "..\..\Pastane Sipariş Sistemi\PastaneSiparişSistemi\PastaneSiparişSistemi.vdproj", "{458AD589-E75B-469E-A326-D378C24E4525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16A6FDB8-B814-47F2-90E6-017F39C1BAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A6FDB8-B814-47F2-90E6-017F39C1BAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A6FDB8-B814-47F2-90E6-017F39C1BAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A6FDB8-B814-47F2-90E6-017F39C1BAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458AD589-E75B-469E-A326-D378C24E4525}.Debug|Any CPU.ActiveCfg = Debug
+		{458AD589-E75B-469E-A326-D378C24E4525}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {221F214E-E660-46E2-8BC6-7F8B220715BD}
+	EndGlobalSection
+EndGlobal

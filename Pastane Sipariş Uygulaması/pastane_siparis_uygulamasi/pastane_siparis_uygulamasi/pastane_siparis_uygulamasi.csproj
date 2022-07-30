@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16A6FDB8-B814-47F2-90E6-017F39C1BAD6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pastane_siparis_uygulamasi</RootNamespace>
+    <AssemblyName>pastane_siparis_uygulamasi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baglan.cs" />
+    <Compile Include="kullanıcı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullanıcı.Designer.cs">
+      <DependentUpon>kullanıcı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dogumgunu_pastalari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dogumgunu_pastalari.Designer.cs">
+      <DependentUpon>dogumgunu_pastalari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gazli_icecek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gazli_icecek.Designer.cs">
+      <DependentUpon>gazli_icecek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ikinciekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ikinciekran.Designer.cs">
+      <DependentUpon>ikinciekran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="meyve_sulari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="meyve_sulari.Designer.cs">
+      <DependentUpon>meyve_sulari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sepet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sepet.Designer.cs">
+      <DependentUpon>sepet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sepet_tablosuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sepet_tablosuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="serbetli_tatlilar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serbetli_tatlilar.Designer.cs">
+      <DependentUpon>serbetli_tatlilar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sicak_icecekler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sicak_icecekler.Designer.cs">
+      <DependentUpon>sicak_icecekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sutlu_tatlilar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sutlu_tatlilar.Designer.cs">
+      <DependentUpon>sutlu_tatlilar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dogumgunu_pastalari.resx">
+      <DependentUpon>dogumgunu_pastalari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gazli_icecek.resx">
+      <DependentUpon>gazli_icecek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ikinciekran.resx">
+      <DependentUpon>ikinciekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullanıcı.resx">
+      <DependentUpon>kullanıcı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="meyve_sulari.resx">
+      <DependentUpon>meyve_sulari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="sepet.resx">
+      <DependentUpon>sepet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serbetli_tatlilar.resx">
+      <DependentUpon>serbetli_tatlilar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sicak_icecekler.resx">
+      <DependentUpon>sicak_icecekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sutlu_tatlilar.resx">
+      <DependentUpon>sutlu_tatlilar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sepet_tablosuDataSet.xsc">
+      <DependentUpon>sepet_tablosuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sepet_tablosuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sepet_tablosuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sepet_tablosuDataSet.xss">
+      <DependentUpon>sepet_tablosuDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
